@@ -42,6 +42,7 @@ fun CounterApp(viewModel: CounterViewModel) {
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterVertically),
                 horizontalAlignment = Alignment.CenterHorizontally
+
     ) {
         Text(text = "count is ${viewModel.count.value}")
         Row (
